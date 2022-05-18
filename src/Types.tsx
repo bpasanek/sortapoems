@@ -2,6 +2,7 @@ export interface PoemPuzzle {
     id: string;
     title: string;
     text: string;
+    pattern: number[];
 }
 
 export interface NavbarTitles {
